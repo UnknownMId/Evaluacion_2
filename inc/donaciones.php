@@ -108,10 +108,7 @@
                         <label for="inputEmail" class="form-label">Email</label>
                         <input type="email" class="form-control" id="inputEmail" placeholder="tucorreo@dominio.cl" required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">
                         </div>
-                        <div class="col-md-6">
-                        <label for="inputCity" class="form-label">Ciudad</label>
-                        <input type="text" class="form-control" id="inputCity">
-                        </div>
+
                         
                         <div class="col-md-6">
                           <label class="form-label">Region o Ciudad</label>
