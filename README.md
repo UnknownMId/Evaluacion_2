@@ -4,3 +4,10 @@ Integrantes:
 - Diego Huerta
 - Francisco Zambrano
 
+Pequeñas acotaciones:
+----------------------
+1.-Para que funcione la api con las comunas debe pasar por inicio y despues contacto.
+Funciona pero no pudimos encontrar el error de carga de index
+
+2.-Tuvimos problemas en el ultimo repositorio de git para subirlo,
+tuvimos que subirlo denuevo pero tenemos los respaldos de los trabajos realizados y cambios en el la rama del git corrompido.
