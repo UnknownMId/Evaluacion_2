@@ -1,7 +1,7 @@
 
 console.log('data ok')
-let regiones = []
-let comunas = []
+var regiones = []
+var comunas = []
 fetch('https://apis.digital.gob.cl/dpa/regiones/')
 .then(response => response.json())
 .then((data) =>{ console.log(data)
@@ -22,7 +22,7 @@ fetch(`https://apis.digital.gob.cl/dpa/comunas`)
     comunas = data
 });
 
-const setcomunas = (region)=>{
+var setcomunas = (region)=>{
     console.log(region,regiones)
     let id
     for(let i=0;i<regiones.length;i++){
