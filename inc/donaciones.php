@@ -8,77 +8,52 @@
       <hr class="my-4">
     </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Option 1: Bootstrap Bundle with Popper 
     <script src="js/code.js"> </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
-    
+    -->
 
-    <div class="row" >
-      <div class="col-1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.6.96/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js" defer></script>
 
-      </div>
-      <div class="col-10">
-          
-  <div id="idcarrusel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#idcarrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#idcarrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#idcarrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#idcarrusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <a href="tienda.html"> 
-          <img src="img/adopta_3.jpg" class="d-block w-100 " alt="Tienda"> </a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 >ADOPTA</h5>
-            <p>Ellos merecen un hogar</p>
-          </div>
+    <div class="overlay">
+        <div class="slideshow">
+            <span class="btn_cerrar">&times;</span>
+            <div class="botones adelante">
+                <i class="mdi mdi-arrow-right-circle-outline"></i>
+            </div>
+            <div class="botones atras">
+                <i class="mdi mdi-arrow-left-circle-outline"></i>
+            </div>
+            <img src="" alt="" id="img_slideshow">
         </div>
-
-        <div class="carousel-item">
-          <a href="nosotros.html"> 
-          <img src="img/donacion_3.jpg" class="d-block w-100 " alt="nosotros"> </a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5>AYUDA A UN CANINO</h5>
-            <p>Te invitamos a operativo canino</p>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <a href="donaciones.html"> 
-          <img src="img/donacion_4.jpg" class="d-block w-100 " alt="donaciones"></a>
-          <div class="carousel-caption d-none d-md-block ">
-            <h5>Aportes y donaciones</h5>
-            <p>Todas estas donacines contribuyen con un mismo fin el de ver a nuestras mascotas felices.</p>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <a href="contacto.html"> 
-          <img src="img/donacion_5.jpg" class="d-block w-100 " alt="contactaremos"> </a>
-          <div class="carousel-caption d-none d-md-block ">
-            <h5>Registrate y contactanos</h5>
-            <p>Puedes hacerte socio y entrar a los distintos talleres de ayuda y colaboracion</p>
-          </div>
-        </div>
-
-
-
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#idcarrusel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Atras</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#idcarrusel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-      </button>
     </div>
-  </div>
-  <div class="col-1"></div>
-  </div>
+
+    <header class="encabezado">
+        <h1>GALERIA DONACIONES</h1>
+    </header>
+
+    <section class="galeria">
+        <div class="columna">
+            <img src="img/donacion_1.jpg" alt="" data-img-mostrar="0">
+            <img src="img/donacion_2.jpg" alt="" data-img-mostrar="1">
+            <img src="img/donacion_3.jpg" alt="" data-img-mostrar="2">
+        </div>
+        <div class="columna">
+            <img src="img/donacion_4.jpg" alt="" data-img-mostrar="3">
+            <img src="img/donacion_5.jpg" alt="" data-img-mostrar="4">
+            <img src="img/donacion_6.jpg" alt="" data-img-mostrar="5">
+        </div>
+        <div class="columna">
+            <img src="img/donacion_7.jpg" alt="" data-img-mostrar="6">
+            <img src="img/donacion_8.jpg" alt="" data-img-mostrar="7">
+            <img src="img/donacion_9.jpg" alt="" data-img-mostrar="8">
+        </div>
+    </section>
+
     
 
   <hr class="my-4">
