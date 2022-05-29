@@ -14,21 +14,23 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.6.96/css/materialdesignicons.min.css">
     
-
+ <!-- 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
 
-    <meta http-equiv="Access-Control-Allow-Origin" content="*"> 
+    <meta http-equiv="Access-Control-Allow-Origin" content="*"> -->
     <meta name="description" content="Load page with Ajax Demo..."/>
     <link rel="shortcut icon" href="https://www.jose-aguilar.com/blog/wp-content/themes/jaconsulting/favicon.ico" />
     <link rel="stylesheet" href="css/font-awesome.min.css">
     
+
+
     
     
     
   
 
-    <!-- Latest compiled and minified CSS -->
+
 
    
     
@@ -43,25 +45,25 @@
       $(document).ready(function() {
         $('#div-btn1').on('click', function() {
             $('.navbar-nav li').removeClass('active');
-            $("#MascotaLover").load('inc/tienda.php');
+            $("#MascotaLover").load('inc/tienda.html');
             return false;
         });
 
         $('#div-btn2').on('click', function() {
             $('.navbar-nav li').removeClass('active');
-            $("#MascotaLover").load('inc/nosotros.php');
+            $("#MascotaLover").load('inc/nosotros.html');
             return false;
         });
 
         $('#div-btn3').on('click', function() {
             $('.navbar-nav li').removeClass('active');
-            $("#MascotaLover").load('inc/donaciones.php');
+            $("#MascotaLover").load('inc/donaciones.html');
             return false;
         });
 
         $('#div-btn4').on('click', function() {
             $('.navbar-nav li').removeClass('active');
-            $("#MascotaLover").load('inc/contacto.php');
+            $("#MascotaLover").load('inc/contacto.html');
             return false;
         });
     });
@@ -74,28 +76,28 @@
   $(document).ready(function() {
     $('#div-btn-tienda').on('click', function() {
         $('.carousel-item').removeClass('active');
-        $("#MascotaLover").load('inc/tienda.php');
+        $("#MascotaLover").load('inc/tienda.html');
         return false;
     });
 
 
     $('#div-btn-nosotros').on('click', function() {
         $('.carousel-item').removeClass('active');
-        $("#MascotaLover").load('inc/nosotros.php');
+        $("#MascotaLover").load('inc/nosotros.html');
         return false;
     });
 
 
     $('#div-btn-donaciones').on('click', function() {
         $('.carousel-item').removeClass('active');
-        $("#MascotaLover").load('inc/donaciones.php');
+        $("#MascotaLover").load('inc/donaciones.html');
         return false;
     });
 
 
     $('#div-btn-contactos').on('click', function() {
         $('.carousel-item').removeClass('active');
-        $("#MascotaLover").load('inc/contacto.php');
+        $("#MascotaLover").load('inc/contacto.html');
         return false;
     });
 
@@ -110,14 +112,14 @@
   $(document).ready(function() {
     $('.div-btn-tienda1').on('click', function() {
         $('.card').removeClass('active');
-        $("#MascotaLover").load('inc/tienda.php');
+        $("#MascotaLover").load('inc/tienda.html');
         return false;
     });
 
 
     $('#div-btn-donaciones1').on('click', function() {
         $('.card').removeClass('active');
-        $("#MascotaLover").load('inc/donaciones.php');
+        $("#MascotaLover").load('inc/donaciones.html');
         return false;
     });
 
